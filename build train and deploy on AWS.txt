@@ -1,0 +1,33 @@
+course website
+https://www.coursera.org/learn/ml-pipelines-bert
+
+external lecture notes
+https://community.deeplearning.ai/t/pds-course-2-lecture-notes/48254
+
+Week1: Feature transformation with Amazon SageMaker processing job and Feature Store
+aws s3 cp --recursive s3://dlai-practical-data-science/labs/c2w1-487391/ ./
+1. Configure the SageMaker Feature Store
+2. Transform the dataset
+3. Inspect the transformed data
+4. Query the Feature Store
+
+Week2: Train a review classifier with BERT and Amazon SageMaker
+aws s3 cp --recursive s3://dlai-practical-data-science/labs/c2w2-824159/ ./
+1. Configure dataset
+2. Configure model hyper-parameters
+3. Setup evaluation metrics, debugger and profiler
+4. Train model
+5. Analyze debugger results
+6. Deploy and test the model
+
+Week3: SageMaker pipelines to train a BERT-Based text classifier
+aws s3 cp --recursive s3://dlai-practical-data-science/labs/c2w3-594046/ ./
+1. Configure dataset and processing step
+2. Configure training step
+3. Configure model-evaluation step
+4. Configure register model step
+5. Create model for deployment step
+6. Check accuracy condition step
+7. Create and start pipeline
+8. List pipeline artifacts
+9. Approve and deploy model
